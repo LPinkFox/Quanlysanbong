@@ -1,0 +1,96 @@
+.my-modalBackground {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: calc(100% - 60px); /* Adjust 60px to the height of your navbar */
+    margin-top: 60px; /* Adjust 60px to the height of your navbar */
+  }
+  
+  .my-modalContainer {
+    display: flex;
+    width: 600px;
+    flex-direction: column;
+    height: 600px;
+    justify-content: center;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+  }
+  
+  .my-modalContainer .my-title {
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .my-titleCloseBtn {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .my-titleCloseBtn button {
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+  }
+  
+  .my-modalContainer .my-body {
+    flex: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7rem;
+    text-align: center;
+  }
+  
+  .my-modalContainer .my-footer {
+    flex: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  #cancelBtn {
+    background-color: crimson;
+  }
+  .my-centeredImage {
+    max-width: 85%;
+    height: 75%;
+}
+.my-titleRow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    white-space: nowrap; /* Prevents the text from wrapping */
+  }
+  .my-titleRow h1 {
+    font-size: 24px; /* Adjust this value as needed */
+  }
+  .my-sum {
+    color: red;
+  }
+  .my-modalContainer .my-footer button {
+    width: 150px;
+    height: 45px;
+    border: none;
+    background-color: rgb(195, 214, 248);
+    color: white;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add this line */
+  }
+  
+  .my-modalContainer .my-footer button:hover {
+    background-color: rgb(86, 130, 233); /* Change this color as needed */
+  }
