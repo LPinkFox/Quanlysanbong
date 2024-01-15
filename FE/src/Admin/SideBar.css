@@ -1,0 +1,12 @@
+
+.sidebar ul li :hover{
+    background-color: #596FB7;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.active-sidebar{
+    background-color: #596FB7;
+    border-radius: 5px;
+}
+

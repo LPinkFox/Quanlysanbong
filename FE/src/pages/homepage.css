@@ -1,0 +1,26 @@
+.my-homepage-banner {
+    color: orange;
+    text-align: center;
+    font-size: 40px;
+}
+.my-homepage-img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.my-navbar-text-item {
+    padding-top: 15px;
+}
+
+.my-homepage-text-instruction {
+    position: absolute;
+  color: white; /* Màu của văn bản */
+  text-align: center; /* Căn giữa văn bản */
+  height: 100%; /* Đảm bảo nó chiếm toàn bộ chiều cao của ảnh */
+  margin-left: 265px;
+  margin-top: 100px;
+}
+
+.my-homepage-containers {
+    position: relative;
+}

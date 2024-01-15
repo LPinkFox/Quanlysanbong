@@ -1,0 +1,73 @@
+.my-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 200px;
+}
+
+.my-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.my-text {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.my-underline {
+    width: 50px;
+    height: 2px;
+    background-color: #333;
+    margin: 10px auto;
+}
+
+.my-inputs {
+    margin-bottom: 20px;
+}
+
+.my-input {
+    margin-bottom: 10px;
+}
+
+.my-input input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.my-submit-container {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    margin: 60px auto;
+}
+
+.my-submit {
+    width: 48%;
+    padding: 10px;
+    text-align: center;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.my-submit:hover {
+    background-color: #0056b3;
+}
+
+.my-gray {
+    background: #EAEAEA;
+    color: #676767;
+}
+.my-forgot-password:hover {
+    color: blue; /* Change the text color to blue when hovered */
+    cursor: pointer; /* Change the cursor to a pointer when hovered */
+}
+.my-forgot-password {
+    display: inline-block;
+}
