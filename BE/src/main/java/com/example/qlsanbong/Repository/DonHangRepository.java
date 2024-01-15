@@ -10,6 +10,6 @@ public interface DonHangRepository extends JpaRepository<DonHang, Long> {
   List<DonHang> findByNguoiDung_Sdt(String sdt);
   @Query("select dh from DonHang dh order by dh.ngayTao desc")
   List<DonHang> findAllDonHang();
-  @Query("select sum(dh.tongTien) from DonHang dh where dh.trangThai = ?1  ")
+  @Query("select ifnull(sum(dh.tongTien),0) from DonHang dh where dh.trangThai = ?1  ")
   long doanhThu(String trangthai);
 }
