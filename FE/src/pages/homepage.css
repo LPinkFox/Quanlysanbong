@@ -23,4 +23,5 @@
 
 .my-homepage-containers {
     position: relative;
+    z-index: -2;
 }
